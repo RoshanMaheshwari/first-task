@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main {
+    	public static void main(String[] args) {
+		
+		
+	//marks of matric 	
+		System.out.println("Enter matriculation marks");
+		Scanner ob = new Scanner(System.in);
+	float matric= ob.nextInt();
+		matric = matric*0.1F;
+		//marks of inter 
+		System.out.println("Enter marks of inter");
+      float  inter = ob.nextFloat();
+		inter = inter*0.3F;
+		//marks of test 
+		System.out.println("Enter your test score");
+	  float test = ob.nextFloat();
+		test = test*0.6F;
+		
+		// now cpn is 
+	float cpn = matric+inter+test;
+		System.out.println("cpn is = "+cpn);
+		
+  	}
+}
