@@ -1,0 +1,19 @@
+import java.util.*; 
+public class Main{
+	public static void main(String args[]){
+		
+	System.out.println("enter any number ");
+	Scanner ob = new Scanner(System.in);
+	int a = ob.nextInt();
+	if(a%2==0){
+		System.out.println(a+"=  is even number");
+	}
+	else {
+		System.out.println(a+"  =odd number ");
+	}
+	
+	}
+}
+	
+	
+	
