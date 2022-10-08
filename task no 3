@@ -1,0 +1,35 @@
+import java.util.*;
+public class Main{
+	public static void main(String args []){
+		//all arthmatic operation performance
+		int a = 8;
+		int b = 5;
+		//addiction
+		int sum= a+b;
+	System.out.println("a+b = "+sum);
+	//substraction
+	int sub = b-a;
+	System.out.println("a-b = " +sub);
+	//multiplication
+//	int mult= a*b;
+	System.out.println("a*b= "+a*b);
+	//division
+	float div= a/b;
+	System.out.println("a/b= "+div);
+	//moduls opertor 
+	System.out.println("a%b ="+a%b);
+	
+	
+	// conditional operators
+	System.out.println(a>b);
+	System.out.println(a<b);
+	System.out.println(a>=b);
+	System.out.println(a==b);
+	
+	
+	
+	// logical operator
+	System.out.println(a<=8&&b<=8);	
+	System.out.println(a<8||b>=5);
+	}
+}
