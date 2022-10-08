@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello, world!");
+		
+		int a = 5;
+		float b = 6.5F;
+		double d = 164.67D;
+		char c = 'a';
+		String name = "Roshan";
+		boolean value  = true;
+		
+	System.out.println("integar data type =  "+a);
+	System.out.println("float data type = "+b);
+	System.out.println("double data type =  "+d);
+	System.out.println("character ="+c);
+	System.out.println("String = "+name);
+	System.out.println("boolean = "+value);
+	
+
+             }
+}
