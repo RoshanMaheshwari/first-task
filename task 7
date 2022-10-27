@@ -1,5 +1,19 @@
 public class Main {
 	public static void main(String[] args) {
 		
+        
+		//program for escape character
+		//escape character \n
+		System.out.println("my name is Roshan\n Maheshwari ");
+		// escape character \t
+		System.out.println("my name is Roshan\t Maheshwari ");
+		//   escape character \r 
+		System.out.println("I'm from kario \r Ghanwar");
+		//    escape character \b 
+		System.out.println(" i study in Sindh\b university");
+	//	escape character \f
+	System.out.println(" in computer\f science department");
+	 //    escape character \\
+	 System.out.println("we all practice\\ to learn programming");
 	}
 }
