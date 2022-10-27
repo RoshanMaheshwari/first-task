@@ -1,8 +1,25 @@
 import java.util.*;
-public class Main {
+pclass task6 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		
+		System.out.println("\t\t\tWelcome to restaurant");
+		System.out.println("\n\t\tfor price check click on any options\n1. chicken \n2. meat\n3.veges");
+		int a = sc.nextInt();
+		switch(a){
+			case 1: System.out.println("chicken price is  = 400");
+
+                	break;
+			case 2: System.out.println(" meat price is  = 600");
+
+			break;
+			case 3: System.out.println("veges is = 200");
+
+			break;
+
+			default:
+
+			System.out.println("sorry restaurant hasn't any food");
 	}
 }
