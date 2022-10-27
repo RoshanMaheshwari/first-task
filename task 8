@@ -1,5 +1,15 @@
-public class Main {
+Import java.util.*;
+class task8{
 	public static void main(String[] args) {
-		
+	
+	Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any first number ");
+		int x = sc.nextInt();
+		System.out.println("Enter 2nd number");
+		int y = sc.nextInt();
+		System.out.println("Sum of x and y is = "+(x+y));
+		System.out.println(" Subtraction of x and y is = "+(x-y));
+		System.out.println(" multiplication of x and y is = "+(x*y));
+		System.out.println("division of x and y is = "+(x/y));
 	}
 }
