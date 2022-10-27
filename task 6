@@ -1,8 +1,8 @@
 import java.util.*;
-pclass task6 {
+class task6 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		// Program for restaurant food 
 		
 		System.out.println("\t\t\tWelcome to restaurant");
 		System.out.println("\n\t\tfor price check click on any options\n1. chicken \n2. meat\n3.veges");
